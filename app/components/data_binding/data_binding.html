@@ -1,0 +1,19 @@
+<div class="pm-data-binding">
+    <input type="text" ng-model="vm.magic">
+    <div>Show me some {{vm.magic}}</div>
+    <button ng-click="vm.displayMagic()">Print the magic in alert</button>
+
+    <br>
+    <div ng-if="vm.show">You can see me</div>
+    <button ng-click="vm.toggleShow()">showAndHide</button>
+
+    <br>
+    <br>
+    <pm-loops food="vm.myOwnFoot"></pm-loops>
+
+    <br>
+    <br>
+    <h1>DataBinding component</h1>
+    <h3>{{vm.sharedObject.value}}</h3>
+    <button ng-click="vm.highFive()">Give me five</button>
+</div>
