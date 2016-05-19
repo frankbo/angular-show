@@ -5,5 +5,5 @@ Install bower with ```npm install bower -g```
 
 Start index.html
 
-## Slides
+## Slides can be found here
 [Link to slides](http://slides.com/frankbo/deck)
