@@ -11,6 +11,7 @@
         var sharedObject = {
             value: 0
         };
+        
         var service = {
             sharedObject: sharedObject,
             giveMeFive: giveMeFive

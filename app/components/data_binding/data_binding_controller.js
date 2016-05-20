@@ -11,8 +11,10 @@
         vm.show = true;
 
         vm.displayMagic = function () {
-            alert('Here is the magic', vm.magic);
+            alert('Here is the magic ' + vm.magic);
         };
+
+        ///////// ng-if example
 
         vm.toggleShow = function () {
              vm.show = !vm.show;
